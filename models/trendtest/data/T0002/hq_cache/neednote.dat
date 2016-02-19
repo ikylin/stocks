@@ -1,0 +1,13 @@
+[F10]
+ADSTR1=
+ADSTR2=
+[URL]
+CompanyWebURL=http://www.tdx.com.cn/url/jump.asp?setcode=##SETCODE##&code=xxxxxx
+FreePopURL=http://www.tdx.com.cn/softad/freepop.htm
+HKCenterURL=http://www.tdx.com.cn/url/hk/
+HKJyTimeURL=http://www.hkex.com.hk/chi/market/sec_tradinfo/tradcal/nont10_c.htm
+ZDLogoPopURL=
+LastestVer=7.16
+[Mail]
+MailContent1=通达信移动版,全新设计的专业证券投资软件...
+MailContent2=iPad版下载:http://itunes.apple.com/cn/app/tong-da-xinhd/id617199309?mt=8 安卓手机版:http://www.tdx.com.cn/products/autoup/mobile/tdx_gphone.apk

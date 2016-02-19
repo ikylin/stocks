@@ -1,0 +1,33 @@
+body {
+background-color: #ffffff;
+color: #000000;
+scrollbar-face-color: #ffffff;
+scrollbar-highlight-color: #c0c0c0;
+scrollbar-3dlight-color: #c0c0c0;
+scrollbar-darkshadow-color: #c0c0c0;
+scrollbar-shadow-color: #ffffff;
+scrollbar-arrow-color: #c0c0c0;
+scrollbar-track-color: #ffffff;
+}
+table {
+	background-color: #c0c0c0;
+}
+td {
+	background-color: #ffffff;
+}
+a:hover {
+	font-style: normal; line-height: 20px;
+	font-variant: normal; color: #ff0000; text-decoration: none
+}
+a:link {
+	font-style: normal; line-height: 20px; font-weight: bold;
+	font-variant: normal; color: #ff0000; text-decoration: none
+	position: relative; top: 1.5px; left: 1.5px}
+a:visited {
+	font-style: normal; line-height: 20px; font-weight: bold;
+	font-variant: normal; color: #ff0000; text-decoration: none
+}
+a:active {
+	font-style: normal; line-height: 20px;
+	font-variant: normal; color: #ff0000; text-decoration: none
+}
