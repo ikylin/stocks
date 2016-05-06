@@ -1,3 +1,4 @@
+#encoding: utf-8
 #/usr/bin/ruby
 
 def deal_file file
@@ -28,8 +29,13 @@ def deal_file file
 		qjzf = cols[19]#qjzf
 
 		if code.strip =~ /="\d{6}"/
-			if qsyjs0.to_f>0 || dyx0.to_f>0 || wyx0.to_f>0 || wtp0.to_f>0 || dtp1.to_f>0 || wtp1.to_f>0 || dtp2.to_f>0 || wtp2.to_f>0 || mkdjs0.to_f>0
-				puts "#{date},#{code},#{name},#{zf},#{close},#{vol},#{amount},#{qsyjs0},#{dyx0},#{wyx0},#{wtp0},#{dtp1},#{wtp1},#{dtp2},#{wtp2},#{mkdjs0},#{sd},#{ed},#{to},#{tc},#{qjzf}"
+			if (vol.to_f > 0) && (zf.to_f < 9.99) && (qjzf.to_f < 100) && (qsyjs0.to_f>0 || dyx0.to_f>0 || wyx0.to_f>0 || wtp0.to_f>0 || dtp1.to_f>0 || wtp1.to_f>0 || dtp2.to_f>0 || wtp2.to_f>0 || mkdjs0.to_f>0)
+				# if mkdjs0.to_f > 0
+				# if wtp1.to_f > 0
+				# if wtp2.to_f > 0
+				if wtp0.to_f > 0
+					puts "#{date},#{code},#{name},#{zf},#{close},#{vol},#{amount},#{qsyjs0},#{dyx0},#{wyx0},#{wtp0},#{dtp1},#{wtp1},#{dtp2},#{wtp2},#{mkdjs0},#{sd},#{ed},#{to},#{tc},#{qjzf}"
+				end
 			end
 		end
 	}
@@ -46,6 +52,7 @@ end
 
 dir_paths = ['..\\data\\0\\','..\\data\\1\\','..\\data\\2\\']
 
+puts ",代码,名称,涨幅%%,收盘,成交量,总金额,QSYJS0,DYX0,WYX0,WTP0,DTP1,WTP1,DTP2,WTP2,MKDJS0,SD,ED,TO,TC,QJZF"
 dir_paths.each do |dir_path|
 	deal_dir dir_path
 end
