@@ -1,0 +1,800 @@
+0	20:35:08.370	Script Market\History Downloader MT4 SOYBEAN,H1: loaded successfully
+0	20:37:08.374	History Downloader MT4 SOYBEAN,H1 inputs: inpDownloadType=1; inpUserSymbols=EURUSD; inpStartPeriod=1440; inpEndPeriod=1440; inpAttempts=10; inpAttemptsPause=250; inpPlaySound=true; inpSoundName=Alert2; inpDebugInfo=false; inpLanguage=0; 
+0	20:37:08.381	History Downloader MT4 SOYBEAN,H1: initialized
+0	20:38:12.996	History Downloader MT4 SOYBEAN,H1: uninit reason 0
+0	20:38:12.997	Script History Downloader MT4 SOYBEAN,H1: removed
+0	20:51:42.289	Custom indicator Market\Line Alerts SOYBEAN,H1: loaded successfully
+0	20:51:48.334	Custom indicator Line Alerts SOYBEAN,H1: removed
+3	20:51:52.251	Expert Market\VR Watch list and Linker SOYBEAN,H1: is a demo version that can be run only in the Strategy Tester. To use the product without limitations, purchase the full version from the Market
+0	20:51:54.226	Expert VR Watch list and Linker SOYBEAN,H1: removed
+0	20:52:01.423	Expert Market\VR Watch list and Linker DEMO SOYBEAN,H1: loaded successfully
+0	20:52:03.538	VR Watch list and Linker DEMO SOYBEAN,H1 inputs: Prefix=&^%; X_Position=0; Y_Position=0; ListSize=0; PriceUpdate=200; Correction_tick_size=1.0; DaysATR=5; Skins=4; ButtonMenu=0; ButtonMenuBorder=-1; ButtonMenuText=16776960; ButtonMenuPress=9498256; ButtonSelectForex=12632256; ButtonSelectCfd=5263507; ButtonSelectCfdIndex=9659728; ButtonSelectMetals=7701359; ButtonSelectFutures=9221330; ButtonSelectBorder=-1; ButtonSelectText=0; ButtonSelectChoise=9498256; ButtonTradeDisabled=255; EditFon=16775408; EditBorder=0; EditText=0; FonTextInfo=16776960; FonBackground=0; FonBorder=11119017; PriceUP=15119360; PriceDW=4678655; PriceNONE=-1; AtrUP=15119360; AtrDW=4678655; AtrNONE=-1; NetUP=15119360; NetDW=4678655; NetNONE=-1; LinkA=4678655; LinkB=9498256; LinkC=16777184; 
+0	20:52:03.586	VR Watch list and Linker DEMO SOYBEAN,H1: initialized
+0	20:52:33.531	VR Watch list and Linker DEMO SOYBEAN,H1: uninit reason 4
+0	20:52:33.532	Expert VR Watch list and Linker DEMO SOYBEAN,H1: removed
+0	20:54:20.213	Custom indicator Market\Linker charts master demo CORN,H1: loaded successfully
+0	20:54:27.300	Linker charts master demo CORN,H1: initialized
+0	20:54:31.479	Linker charts master demo CORN,H1: uninit reason 3
+0	20:54:31.485	Linker charts master demo USDCHF,H1: initialized
+0	20:54:33.880	Linker charts master demo USDCHF,H1: uninit reason 3
+0	20:54:33.884	Linker charts master demo GBPUSD,H1: initialized
+0	20:54:38.308	Linker charts master demo GBPUSD,H1: uninit reason 3
+0	20:54:38.314	Linker charts master demo USDCHF,H1: initialized
+0	20:54:42.532	Custom indicator Market\Linker charts master demo USDCHF,H1: loaded successfully
+0	20:54:53.961	Custom indicator Linker charts master demo USDCHF,H1: removed
+0	20:55:05.484	Linker charts master demo USDCHF,H1: uninit reason 3
+0	20:55:05.486	Linker charts master demo GBPUSD,H1: initialized
+0	20:55:19.518	Custom indicator Market\Linker charts master demo GBPUSD,H1: loaded successfully
+0	20:55:22.537	Linker charts master demo GBPUSD,H1: initialized
+0	20:55:38.449	Linker charts master demo GBPUSD,H1: uninit reason 9
+0	20:55:38.450	Linker charts master demo GBPUSD,H1: uninit reason 9
+0	20:55:38.512	Custom indicator Linker charts master demo GBPUSD,H1: removed
+0	20:55:38.513	Custom indicator Linker charts master demo GBPUSD,H1: removed
+0	20:55:57.504	Custom indicator Market\Linker charts master demo GBPUSD,H1: loaded successfully
+0	20:55:57.511	Custom indicator Market\Linker charts master demo GBPUSD,H1: loaded successfully
+0	20:55:57.518	Linker charts master demo GBPUSD,H1: initialized
+0	20:55:57.524	Linker charts master demo GBPUSD,H1: initialized
+0	20:56:19.299	Expert Market\Symbol Switcher Basic Version GBPUSD,H1: loaded successfully
+0	20:56:26.818	Symbol Switcher Basic Version GBPUSD,H1: initialized
+0	20:56:28.926	Symbol Switcher Basic Version GBPUSD,H1: uninit reason 3
+0	20:56:28.926	Linker charts master demo GBPUSD,H1: uninit reason 3
+0	20:56:28.926	Linker charts master demo GBPUSD,H1: uninit reason 3
+0	20:56:28.926	Linker charts master demo EURUSD,H1: initialized
+0	20:56:28.926	Linker charts master demo EURUSD,H1: initialized
+0	20:56:28.927	Symbol Switcher Basic Version EURUSD,H1: initialized
+0	20:56:31.948	Symbol Switcher Basic Version EURUSD,H1: uninit reason 3
+0	20:56:31.948	Linker charts master demo EURUSD,H1: uninit reason 3
+0	20:56:31.948	Linker charts master demo EURUSD,H1: uninit reason 3
+0	20:56:31.948	Linker charts master demo USDJPY,H1: initialized
+0	20:56:31.948	Linker charts master demo USDJPY,H1: initialized
+0	20:56:31.949	Symbol Switcher Basic Version USDJPY,H1: initialized
+0	20:56:32.924	Symbol Switcher Basic Version USDJPY,H1: uninit reason 3
+0	20:56:32.924	Linker charts master demo USDJPY,H1: uninit reason 3
+0	20:56:32.924	Linker charts master demo USDJPY,H1: uninit reason 3
+0	20:56:32.924	Linker charts master demo GBPUSD,H1: initialized
+0	20:56:32.924	Linker charts master demo GBPUSD,H1: initialized
+0	20:56:32.925	Symbol Switcher Basic Version GBPUSD,H1: initialized
+0	20:56:33.744	Symbol Switcher Basic Version GBPUSD,H1: uninit reason 3
+0	20:56:33.744	Linker charts master demo GBPUSD,H1: uninit reason 3
+0	20:56:33.744	Linker charts master demo GBPUSD,H1: uninit reason 3
+0	20:56:33.744	Linker charts master demo USDCHF,H1: initialized
+0	20:56:33.744	Linker charts master demo USDCHF,H1: initialized
+0	20:56:33.745	Symbol Switcher Basic Version USDCHF,H1: initialized
+0	20:56:43.414	Symbol Switcher Basic Version USDCHF,H1: uninit reason 3
+0	20:56:43.414	Linker charts master demo USDCHF,H1: uninit reason 3
+0	20:56:43.414	Linker charts master demo USDCHF,H1: uninit reason 3
+0	20:56:43.414	Linker charts master demo USDJPY,H1: initialized
+0	20:56:43.414	Linker charts master demo USDJPY,H1: initialized
+0	20:56:43.415	Symbol Switcher Basic Version USDJPY,H1: initialized
+0	20:56:52.616	Symbol Switcher Basic Version USDJPY,H1: uninit reason 9
+0	20:56:52.616	Linker charts master demo USDJPY,H1: uninit reason 9
+0	20:56:52.617	Linker charts master demo USDJPY,H1: uninit reason 9
+0	20:56:52.690	Expert Symbol Switcher Basic Version USDJPY,H1: removed
+0	20:56:52.691	Custom indicator Linker charts master demo USDJPY,H1: removed
+0	20:56:52.692	Custom indicator Linker charts master demo USDJPY,H1: removed
+0	20:56:58.425	Custom indicator Market\Linker charts master demo USDJPY,H1: loaded successfully
+0	20:56:58.431	Custom indicator Market\Linker charts master demo USDJPY,H1: loaded successfully
+0	20:56:58.435	Expert Market\Symbol Switcher Basic Version USDJPY,H1: loaded successfully
+0	20:56:58.443	Linker charts master demo USDJPY,H1: initialized
+0	20:56:58.448	Linker charts master demo USDJPY,H1: initialized
+0	20:57:02.938	Expert Market\Symbol Switcher Basic Version USDJPY,H1: loaded successfully
+0	20:57:04.324	Symbol Switcher Basic Version USDJPY,H1: initialized
+0	20:57:04.775	Symbol Switcher Basic Version USDJPY,H1: initialized
+0	20:57:07.608	Symbol Switcher Basic Version USDJPY,H1: uninit reason 3
+0	20:57:07.608	Linker charts master demo USDJPY,H1: uninit reason 3
+0	20:57:07.611	Symbol Switcher Basic Version USDJPY,H1: uninit reason 3
+0	20:57:07.611	Linker charts master demo USDJPY,H1: uninit reason 3
+0	20:57:07.612	Linker charts master demo USDCHF,H1: initialized
+0	20:57:07.612	Linker charts master demo USDCHF,H1: initialized
+0	20:57:07.613	Symbol Switcher Basic Version USDCHF,H1: initialized
+0	20:57:07.994	Symbol Switcher Basic Version USDCHF,H1: initialized
+0	20:57:09.371	Symbol Switcher Basic Version USDCHF,H1: uninit reason 3
+0	20:57:09.371	Symbol Switcher Basic Version USDCHF,H1: uninit reason 3
+0	20:57:09.373	Linker charts master demo USDCHF,H1: uninit reason 3
+0	20:57:09.373	Linker charts master demo USDCHF,H1: uninit reason 3
+0	20:57:09.373	Linker charts master demo GBPUSD,H1: initialized
+0	20:57:09.373	Linker charts master demo GBPUSD,H1: initialized
+0	20:57:09.374	Symbol Switcher Basic Version GBPUSD,H1: initialized
+0	20:57:09.851	Symbol Switcher Basic Version GBPUSD,H1: initialized
+0	20:57:23.993	Symbol Switcher Basic Version GBPUSD,H1: uninit reason 3
+0	20:57:23.993	Symbol Switcher Basic Version GBPUSD,H1: uninit reason 3
+0	20:57:23.994	Linker charts master demo GBPUSD,H1: uninit reason 3
+0	20:57:23.995	Linker charts master demo GBPUSD,H1: uninit reason 3
+0	20:57:23.995	Linker charts master demo EURUSD,H1: initialized
+0	20:57:23.995	Linker charts master demo EURUSD,H1: initialized
+0	20:57:23.996	Symbol Switcher Basic Version EURUSD,H1: initialized
+0	20:57:24.491	Symbol Switcher Basic Version EURUSD,H1: initialized
+0	20:57:24.557	Symbol Switcher Basic Version EURUSD,H1: uninit reason 3
+0	20:57:24.557	Symbol Switcher Basic Version EURUSD,H1: uninit reason 3
+0	20:57:24.558	Linker charts master demo EURUSD,H1: uninit reason 3
+0	20:57:24.558	Symbol Switcher Basic Version USDJPY,H1: initialized
+0	20:57:24.558	Linker charts master demo EURUSD,H1: uninit reason 3
+0	20:57:24.558	Linker charts master demo USDJPY,H1: initialized
+0	20:57:24.558	Linker charts master demo USDJPY,H1: initialized
+0	20:57:24.559	Symbol Switcher Basic Version USDJPY,H1: initialized
+0	20:57:25.251	Symbol Switcher Basic Version USDJPY,H1: uninit reason 3
+0	20:57:25.251	Symbol Switcher Basic Version USDJPY,H1: uninit reason 3
+0	20:57:25.252	Symbol Switcher Basic Version GBPUSD,H1: initialized
+0	20:57:25.252	Linker charts master demo USDJPY,H1: uninit reason 3
+0	20:57:25.252	Linker charts master demo USDJPY,H1: uninit reason 3
+0	20:57:25.252	Linker charts master demo GBPUSD,H1: initialized
+0	20:57:25.252	Linker charts master demo GBPUSD,H1: initialized
+0	20:57:25.253	Symbol Switcher Basic Version GBPUSD,H1: initialized
+0	20:57:25.827	Symbol Switcher Basic Version GBPUSD,H1: uninit reason 3
+0	20:57:25.827	Symbol Switcher Basic Version GBPUSD,H1: uninit reason 3
+0	20:57:25.829	Linker charts master demo GBPUSD,H1: uninit reason 3
+0	20:57:25.829	Symbol Switcher Basic Version USDCHF,H1: initialized
+0	20:57:25.829	Linker charts master demo GBPUSD,H1: uninit reason 3
+0	20:57:25.829	Linker charts master demo USDCHF,H1: initialized
+0	20:57:25.829	Linker charts master demo USDCHF,H1: initialized
+0	20:57:25.830	Symbol Switcher Basic Version USDCHF,H1: initialized
+0	20:57:28.879	Symbol Switcher Basic Version USDCHF,H1: uninit reason 7
+0	20:57:28.881	Expert Symbol Switcher Basic Version USDCHF,H1: removed
+0	20:57:31.883	Expert Market\Symbol Switcher Basic Version USDCHF,H1: loaded successfully
+0	20:57:33.016	Symbol Switcher Basic Version USDCHF,H1: initialized
+0	20:57:34.556	Symbol Switcher Basic Version USDCHF,H1: uninit reason 3
+0	20:57:34.556	Symbol Switcher Basic Version USDCHF,H1: uninit reason 3
+0	20:57:34.557	Linker charts master demo USDCHF,H1: uninit reason 3
+0	20:57:34.557	Symbol Switcher Basic Version GBPUSD,H1: initialized
+0	20:57:34.557	Linker charts master demo USDCHF,H1: uninit reason 3
+0	20:57:34.557	Linker charts master demo GBPUSD,H1: initialized
+0	20:57:34.557	Linker charts master demo GBPUSD,H1: initialized
+0	20:57:34.558	Symbol Switcher Basic Version GBPUSD,H1: initialized
+0	20:57:35.453	Symbol Switcher Basic Version GBPUSD,H1: uninit reason 3
+0	20:57:35.453	Symbol Switcher Basic Version GBPUSD,H1: uninit reason 3
+0	20:57:35.455	Linker charts master demo GBPUSD,H1: uninit reason 3
+0	20:57:35.455	Symbol Switcher Basic Version USDJPY,H1: initialized
+0	20:57:35.455	Linker charts master demo GBPUSD,H1: uninit reason 3
+0	20:57:35.455	Linker charts master demo USDJPY,H1: initialized
+0	20:57:35.455	Linker charts master demo USDJPY,H1: initialized
+0	20:57:35.456	Symbol Switcher Basic Version USDJPY,H1: initialized
+0	20:57:35.930	Symbol Switcher Basic Version USDJPY,H1: uninit reason 3
+0	20:57:35.930	Symbol Switcher Basic Version USDJPY,H1: uninit reason 3
+0	20:57:35.931	Linker charts master demo USDJPY,H1: uninit reason 3
+0	20:57:35.931	Symbol Switcher Basic Version EURUSD,H1: initialized
+0	20:57:35.931	Linker charts master demo USDJPY,H1: uninit reason 3
+0	20:57:35.931	Linker charts master demo EURUSD,H1: initialized
+0	20:57:35.931	Linker charts master demo EURUSD,H1: initialized
+0	20:57:35.932	Symbol Switcher Basic Version EURUSD,H1: initialized
+0	20:57:40.643	Symbol Switcher Basic Version EURUSD,H1: uninit reason 9
+0	20:57:40.643	Linker charts master demo EURUSD,H1: uninit reason 9
+0	20:57:40.644	Linker charts master demo EURUSD,H1: uninit reason 9
+0	20:57:40.645	Symbol Switcher Basic Version EURUSD,H1: uninit reason 9
+0	20:57:40.719	Expert Symbol Switcher Basic Version EURUSD,H1: removed
+0	20:57:40.721	Custom indicator Linker charts master demo EURUSD,H1: removed
+0	20:57:40.722	Custom indicator Linker charts master demo EURUSD,H1: removed
+0	20:57:40.724	Expert Symbol Switcher Basic Version EURUSD,H1: removed
+0	20:58:12.038	Custom indicator Market\Linker charts master demo EURUSD,H1: loaded successfully
+0	20:58:12.044	Custom indicator Market\Linker charts master demo EURUSD,H1: loaded successfully
+0	20:58:12.049	Expert Market\Symbol Switcher Basic Version EURUSD,H1: loaded successfully
+0	20:58:12.057	Linker charts master demo EURUSD,H1: initialized
+0	20:58:12.063	Linker charts master demo EURUSD,H1: initialized
+0	20:58:12.079	Expert Market\Symbol Switcher Basic Version EURUSD,H1: loaded successfully
+0	20:58:17.329	Symbol Switcher Basic Version EURUSD,H1: initialized
+0	20:58:17.329	Symbol Switcher Basic Version EURUSD,H1: initialized
+0	20:58:47.397	Custom indicator Market\Linker charts master demo EURUSD,H1: loaded successfully
+0	20:58:50.913	Linker charts master demo EURUSD,H1: initialized
+0	20:58:59.273	Custom indicator Market\Linker charts master demo EURUSD,H1: loaded successfully
+0	20:59:05.817	Linker charts master demo EURUSD,H1: initialized
+0	20:59:22.843	Symbol Switcher Basic Version EURUSD,H1: uninit reason 9
+0	20:59:22.843	Linker charts master demo EURUSD,H1: uninit reason 9
+0	20:59:25.876	Linker charts master demo EURUSD,H1: uninit reason 9
+0	20:59:25.877	Symbol Switcher Basic Version EURUSD,H1: uninit reason 9
+0	20:59:25.877	Linker charts master demo EURUSD,H1: uninit reason 9
+0	20:59:25.877	Linker charts master demo EURUSD,H1: uninit reason 9
+0	20:59:25.907	Expert Symbol Switcher Basic Version EURUSD,H1: removed
+0	20:59:25.910	Custom indicator Linker charts master demo EURUSD,H1: removed
+0	20:59:25.911	Custom indicator Linker charts master demo EURUSD,H1: removed
+0	20:59:25.915	Expert Symbol Switcher Basic Version EURUSD,H1: removed
+0	20:59:25.919	Custom indicator Linker charts master demo EURUSD,H1: removed
+0	20:59:25.920	Custom indicator Linker charts master demo EURUSD,H1: removed
+3	20:59:29.347	cannot open file 'C:\Users\Administrator\AppData\Roaming\MetaQuotes\Terminal\E87C1DD8E868208C65D1F9992B1D94AA\MQL4\indicators\Market\Linker charts master demo.ex4' [2]
+3	20:59:29.347	cannot open file 'C:\Users\Administrator\AppData\Roaming\MetaQuotes\Terminal\E87C1DD8E868208C65D1F9992B1D94AA\MQL4\indicators\Market\Linker charts master demo.ex4' [2]
+0	20:59:29.352	Expert Market\Symbol Switcher Basic Version EURUSD,H1: loaded successfully
+3	20:59:29.363	cannot open file 'C:\Users\Administrator\AppData\Roaming\MetaQuotes\Terminal\E87C1DD8E868208C65D1F9992B1D94AA\MQL4\indicators\Market\Linker charts master demo.ex4' [2]
+3	20:59:29.364	cannot open file 'C:\Users\Administrator\AppData\Roaming\MetaQuotes\Terminal\E87C1DD8E868208C65D1F9992B1D94AA\MQL4\indicators\Market\Linker charts master demo.ex4' [2]
+0	20:59:29.368	Expert Market\Symbol Switcher Basic Version EURUSD,H1: loaded successfully
+0	20:59:34.868	Symbol Switcher Basic Version EURUSD,H1: initialized
+0	20:59:34.870	Symbol Switcher Basic Version EURUSD,H1: initialized
+0	21:00:26.236	Script PeriodConverter EURUSD,H1: loaded successfully
+0	21:00:35.134	Script PeriodConverter EURUSD,H1: removed
+0	21:00:38.013	Script PeriodConverter EURUSD,H1: loaded successfully
+0	21:00:48.042	Script PeriodConverter EURUSD,H1: removed
+0	21:12:40.857	Script MayTest USDCHF,H1: loaded successfully
+0	21:12:40.863	MayTest USDCHF,H1: The Expert Advisor with name MayTest is running
+0	21:12:40.863	MayTest USDCHF,H1: initialized
+0	21:12:40.863	MayTest USDCHF,H1: uninit reason 0
+0	21:12:40.871	Script MayTest USDCHF,H1: removed
+0	21:13:28.945	Script MayTest USDCHF,H1: loaded successfully
+0	21:13:28.950	MayTest USDCHF,H1: The Expert Advisor with name MayTest is running
+0	21:13:28.950	MayTest USDCHF,H1: initialized
+0	21:13:28.950	MayTest USDCHF,H1: uninit reason 0
+0	21:13:28.957	Script MayTest USDCHF,H1: removed
+0	21:13:32.573	Script MayTest USDCHF,H1: loaded successfully
+0	21:13:32.578	MayTest USDCHF,H1: The Expert Advisor with name MayTest is running
+0	21:13:32.578	MayTest USDCHF,H1: initialized
+0	21:13:32.578	MayTest USDCHF,H1: uninit reason 0
+0	21:13:32.585	Script MayTest USDCHF,H1: removed
+0	21:13:56.083	Script MayTest EURUSD,H1: loaded successfully
+0	21:13:56.093	MayTest EURUSD,H1: The Expert Advisor with name MayTest is running
+0	21:13:56.093	MayTest EURUSD,H1: initialized
+0	21:13:56.093	MayTest EURUSD,H1: uninit reason 1
+0	21:13:56.094	Script MayTest EURUSD,H1: removed
+0	21:13:57.272	Script MayTest EURUSD,H1: loaded successfully
+0	21:13:57.282	MayTest EURUSD,H1: The Expert Advisor with name MayTest is running
+0	21:13:57.282	MayTest EURUSD,H1: initialized
+0	21:13:57.282	MayTest EURUSD,H1: uninit reason 1
+0	21:13:57.283	Script MayTest EURUSD,H1: removed
+0	21:14:23.004	Script MayTest USDCHF,H1: loaded successfully
+0	21:14:23.010	MayTest USDCHF,H1: The Expert Advisor with name MayTest is running
+0	21:14:23.010	MayTest USDCHF,H1: initialized
+0	21:14:23.010	MayTest USDCHF,H1: uninit reason 0
+0	21:14:23.017	Script MayTest USDCHF,H1: removed
+0	21:14:25.401	Script MayTest USDCHF,H1: loaded successfully
+0	21:14:25.405	MayTest USDCHF,H1: The Expert Advisor with name MayTest is running
+0	21:14:25.405	MayTest USDCHF,H1: initialized
+0	21:14:25.405	MayTest USDCHF,H1: uninit reason 0
+0	21:14:25.414	Script MayTest USDCHF,H1: removed
+0	21:14:26.876	Script MayTest USDCHF,H1: loaded successfully
+0	21:14:26.881	MayTest USDCHF,H1: The Expert Advisor with name MayTest is running
+0	21:14:26.881	MayTest USDCHF,H1: initialized
+0	21:14:26.881	MayTest USDCHF,H1: uninit reason 0
+0	21:14:26.890	Script MayTest USDCHF,H1: removed
+0	21:14:42.704	Script MayTest USDCHF,H1: loaded successfully
+0	21:14:42.709	MayTest USDCHF,H1: The Expert Advisor with name MayTest is running
+0	21:14:42.709	MayTest USDCHF,H1: initialized
+0	21:14:42.709	MayTest USDCHF,H1: uninit reason 0
+0	21:14:42.717	Script MayTest USDCHF,H1: removed
+0	21:15:18.603	Symbol Switcher Basic Version EURUSD,H1: uninit reason 3
+0	21:15:18.608	Symbol Switcher Basic Version EURUSD,H1: uninit reason 3
+0	21:15:18.610	Symbol Switcher Basic Version USDJPY,H1: initialized
+0	21:15:19.040	Symbol Switcher Basic Version USDJPY,H1: initialized
+0	21:15:21.748	Symbol Switcher Basic Version USDJPY,H1: uninit reason 9
+0	21:15:21.749	Symbol Switcher Basic Version USDJPY,H1: uninit reason 9
+0	21:15:21.821	Expert Symbol Switcher Basic Version USDJPY,H1: removed
+0	21:15:21.826	Expert Symbol Switcher Basic Version USDJPY,H1: removed
+0	21:15:31.296	Expert Market\Symbol Switcher Basic Version USDJPY,H1: loaded successfully
+0	21:15:31.310	Expert Market\Symbol Switcher Basic Version USDJPY,H1: loaded successfully
+0	21:15:33.841	Expert Symbol Switcher Basic Version USDJPY,H1: removed
+0	21:15:34.971	Expert Symbol Switcher Basic Version USDJPY,H1: removed
+0	21:15:49.012	Script MayTest USDCHF,H1: loaded successfully
+0	21:15:49.018	MayTest USDCHF,H1: The Expert Advisor with name MayTest is running
+0	21:15:49.018	MayTest USDCHF,H1: initialized
+0	21:15:49.018	MayTest USDCHF,H1: uninit reason 0
+0	21:15:49.024	Script MayTest USDCHF,H1: removed
+0	21:15:56.325	Script MayTest USDCHF,H1: loaded successfully
+0	21:15:56.331	MayTest USDCHF,H1: The Expert Advisor with name MayTest is running
+0	21:15:56.331	MayTest USDCHF,H1: initialized
+0	21:15:56.331	MayTest USDCHF,H1: uninit reason 0
+0	21:15:56.338	Script MayTest USDCHF,H1: removed
+0	21:23:55.464	Script MayTest USDCHF,H1: loaded successfully
+0	21:23:55.471	MayTest USDCHF,H1: The Expert Advisor with name MayTest is running
+0	21:23:55.471	MayTest USDCHF,H1: initialized
+0	21:23:55.471	MayTest USDCHF,H1: uninit reason 0
+0	21:23:55.481	Script MayTest USDCHF,H1: removed
+0	21:26:50.705	Script MayTest USDCHF,H1: loaded successfully
+0	21:26:50.711	MayTest USDCHF,H1: The Expert Advisor with name MayTest is running
+0	21:26:50.778	MayTest USDCHF,H1: initialized
+0	21:26:50.778	MayTest USDCHF,H1: uninit reason 0
+0	21:26:50.787	Script MayTest USDCHF,H1: removed
+0	21:30:49.486	Script MayTest USDCHF,H1: loaded successfully
+0	21:30:49.492	MayTest USDCHF,H1: The Expert Advisor with name MayTest is running
+0	21:30:49.568	MayTest USDCHF,H1: File 'my_template.tpl' not found in D:\software\MetaTrader 4\MQL4\Files
+0	21:30:49.568	MayTest USDCHF,H1: initialized
+0	21:30:49.568	MayTest USDCHF,H1: uninit reason 0
+0	21:30:49.572	Script MayTest USDCHF,H1: removed
+0	21:31:04.855	Script MayTest USDCHF,H1: loaded successfully
+0	21:31:04.861	MayTest USDCHF,H1: The Expert Advisor with name MayTest is running
+0	21:31:04.931	MayTest USDCHF,H1: File 'my_template.tpl' not found in D:\software\MetaTrader 4\MQL4\Files
+0	21:31:04.931	MayTest USDCHF,H1: initialized
+0	21:31:04.931	MayTest USDCHF,H1: uninit reason 0
+0	21:31:04.939	Script MayTest USDCHF,H1: removed
+0	21:31:39.234	Script MayTest USDCHF,H1: loaded successfully
+0	21:31:39.239	MayTest USDCHF,H1: The Expert Advisor with name MayTest is running
+0	21:31:39.267	MayTest USDCHF,H1: File 'my_template.tpl' not found in D:\software\MetaTrader 4\MQL4\Files
+0	21:31:39.267	MayTest USDCHF,H1: initialized
+0	21:31:39.267	MayTest USDCHF,H1: uninit reason 0
+0	21:31:39.274	Script MayTest USDCHF,H1: removed
+0	21:32:17.684	Script MayTest USDCHF,H1: loaded successfully
+0	21:32:17.690	MayTest USDCHF,H1: The Expert Advisor with name MayTest is running
+0	21:32:17.719	MayTest USDCHF,H1: File 'my_template.tpl' not found in D:\software\MetaTrader 4\MQL4\Files
+0	21:32:17.719	MayTest USDCHF,H1: initialized
+0	21:32:17.719	MayTest USDCHF,H1: uninit reason 0
+0	21:32:17.724	Script MayTest USDCHF,H1: removed
+0	21:34:13.024	Script MayTest USDCHF,H1: loaded successfully
+0	21:34:13.030	MayTest USDCHF,H1: The Expert Advisor with name MayTest is running
+0	21:34:13.096	MayTest USDCHF,H1: File 'my_template.tpl' not found in D:\software\MetaTrader 4\MQL4\Files
+0	21:34:13.096	MayTest USDCHF,H1: initialized
+0	21:34:13.096	MayTest USDCHF,H1: uninit reason 0
+0	21:34:13.100	Script MayTest USDCHF,H1: removed
+0	21:34:42.555	Script MayTest USDCHF,H1: loaded successfully
+0	21:34:42.560	MayTest USDCHF,H1: The Expert Advisor with name MayTest is running
+0	21:34:42.589	MayTest USDCHF,H1: File 'my_template.tpl' not found in D:\software\MetaTrader 4\MQL4\Files
+0	21:34:42.589	MayTest USDCHF,H1: initialized
+0	21:34:42.589	MayTest USDCHF,H1: uninit reason 3
+0	21:34:42.595	Script MayTest USDCHF,H1: removed
+0	21:35:04.985	Script MayTest USDCHF,H1: loaded successfully
+0	21:35:04.991	MayTest USDCHF,H1: The Expert Advisor with name MayTest is running
+0	21:35:04.993	MayTest USDCHF,H1: File 'my_template.tpl' not found in D:\software\MetaTrader 4\MQL4\Files
+0	21:35:04.993	MayTest USDCHF,H1: initialized
+0	21:35:04.993	MayTest USDCHF,H1: uninit reason 0
+0	21:35:04.998	Script MayTest USDCHF,H1: removed
+0	21:35:28.447	Script MayTest USDCHF,H1: loaded successfully
+0	21:35:28.453	MayTest USDCHF,H1: The Expert Advisor with name MayTest is running
+0	21:35:28.520	MayTest USDCHF,H1: File 'my_template.tpl' not found in D:\software\MetaTrader 4\MQL4\Files
+0	21:35:28.520	MayTest USDCHF,H1: initialized
+0	21:35:28.520	MayTest USDCHF,H1: uninit reason 0
+0	21:35:28.526	Script MayTest USDCHF,H1: removed
+0	21:35:48.745	Script MayTest USDCHF,H1: loaded successfully
+0	21:35:48.751	MayTest USDCHF,H1: The Expert Advisor with name MayTest is running
+0	21:35:48.820	MayTest USDCHF,H1: File 'my_template.tpl' not found in D:\software\MetaTrader 4\MQL4\Files
+0	21:35:48.820	MayTest USDCHF,H1: initialized
+0	21:35:48.820	MayTest USDCHF,H1: uninit reason 3
+0	21:35:48.824	Script MayTest USDCHF,H1: removed
+0	21:36:44.919	Script MayTest USDCHF,H1: loaded successfully
+0	21:36:44.925	MayTest USDCHF,H1: The Expert Advisor with name MayTest is running
+0	21:36:44.995	MayTest USDCHF,H1: File 'my_template.tpl' not found in D:\software\MetaTrader 4\MQL4\Files
+0	21:36:44.995	MayTest USDCHF,H1: initialized
+0	21:36:44.995	MayTest USDCHF,H1: uninit reason 3
+0	21:36:44.999	Script MayTest USDCHF,H1: removed
+0	21:36:58.717	Script MayTest USDCHF,H1: loaded successfully
+0	21:36:58.723	MayTest USDCHF,H1: The Expert Advisor with name MayTest is running
+0	21:36:58.758	MayTest USDCHF,H1: File 'my_template.tpl' not found in D:\software\MetaTrader 4\MQL4\Files
+0	21:36:58.758	MayTest USDCHF,H1: initialized
+0	21:36:58.758	MayTest USDCHF,H1: uninit reason 0
+0	21:36:58.772	Script MayTest USDCHF,H1: removed
+0	21:41:21.711	Script MayTest US_OIL,H1: loaded successfully
+0	21:41:21.718	MayTest US_OIL,H1: The Expert Advisor with name MayTest is running
+0	21:41:21.782	MayTest US_OIL,H1: File 'my_template.tpl' not found in D:\software\MetaTrader 4\MQL4\Files
+0	21:41:21.782	MayTest US_OIL,H1: initialized
+0	21:41:21.782	MayTest US_OIL,H1: uninit reason 0
+0	21:41:21.791	Script MayTest US_OIL,H1: removed
+0	21:42:03.746	Script MayTest US_OIL,H1: loaded successfully
+0	21:42:03.752	MayTest US_OIL,H1: The Expert Advisor with name MayTest is running
+0	21:42:06.421	MayTest US_OIL,H1: File 'my_template.tpl' not found in D:\software\MetaTrader 4\MQL4\Files
+0	21:42:06.421	MayTest US_OIL,H1: initialized
+0	21:42:06.421	MayTest US_OIL,H1: uninit reason 0
+0	21:42:06.428	Script MayTest US_OIL,H1: removed
+0	21:43:02.115	Script MayTest US_OIL,H1: loaded successfully
+0	21:43:02.121	MayTest US_OIL,H1: The Expert Advisor with name MayTest is running
+0	21:43:03.924	MayTest US_OIL,H1: File 'my_template.tpl' not found in D:\software\MetaTrader 4\MQL4\Files
+0	21:43:03.924	MayTest US_OIL,H1: initialized
+0	21:43:03.924	MayTest US_OIL,H1: uninit reason 0
+0	21:43:03.933	Script MayTest US_OIL,H1: removed
+0	21:46:05.387	Script MayTest US_OIL,H1: loaded successfully
+0	21:46:05.394	MayTest US_OIL,H1: The Expert Advisor with name MayTest is running
+0	21:46:05.395	MayTest US_OIL,H1: 
+0	21:46:05.437	MayTest US_OIL,H1: 
+0	21:46:05.466	MayTest US_OIL,H1: 
+0	21:46:05.493	MayTest US_OIL,H1: 
+0	21:46:05.520	MayTest US_OIL,H1: 
+0	21:46:05.548	MayTest US_OIL,H1: 
+0	21:46:05.574	MayTest US_OIL,H1: 
+0	21:46:05.600	MayTest US_OIL,H1: 
+0	21:46:05.628	MayTest US_OIL,H1: 
+0	21:46:05.653	MayTest US_OIL,H1: 
+0	21:46:05.681	MayTest US_OIL,H1: 
+0	21:46:05.709	MayTest US_OIL,H1: 
+0	21:46:05.737	MayTest US_OIL,H1: 
+0	21:46:05.764	MayTest US_OIL,H1: 
+0	21:46:05.793	MayTest US_OIL,H1: 
+0	21:46:05.822	MayTest US_OIL,H1: 
+0	21:46:05.848	MayTest US_OIL,H1: 
+0	21:46:05.873	MayTest US_OIL,H1: 
+0	21:46:05.901	MayTest US_OIL,H1: 
+0	21:46:05.929	MayTest US_OIL,H1: 
+0	21:46:05.957	MayTest US_OIL,H1: 
+0	21:46:05.984	MayTest US_OIL,H1: 
+0	21:46:06.012	MayTest US_OIL,H1: 
+0	21:46:06.039	MayTest US_OIL,H1: 
+0	21:46:06.067	MayTest US_OIL,H1: 
+0	21:46:06.097	MayTest US_OIL,H1: 
+0	21:46:06.123	MayTest US_OIL,H1: 
+0	21:46:06.150	MayTest US_OIL,H1: 
+0	21:46:06.179	MayTest US_OIL,H1: 
+0	21:46:06.205	MayTest US_OIL,H1: 
+0	21:46:06.234	MayTest US_OIL,H1: 
+0	21:46:06.263	MayTest US_OIL,H1: 
+0	21:46:06.294	MayTest US_OIL,H1: 
+0	21:46:06.321	MayTest US_OIL,H1: 
+0	21:46:06.350	MayTest US_OIL,H1: 
+0	21:46:06.379	MayTest US_OIL,H1: 
+0	21:46:06.406	MayTest US_OIL,H1: 
+0	21:46:06.437	MayTest US_OIL,H1: 
+0	21:46:06.465	MayTest US_OIL,H1: 
+0	21:46:06.495	MayTest US_OIL,H1: 
+0	21:46:06.525	MayTest US_OIL,H1: 
+0	21:46:06.554	MayTest US_OIL,H1: 
+0	21:46:06.581	MayTest US_OIL,H1: 
+0	21:46:06.611	MayTest US_OIL,H1: 
+0	21:46:06.640	MayTest US_OIL,H1: 
+0	21:46:06.667	MayTest US_OIL,H1: 
+0	21:46:06.695	MayTest US_OIL,H1: 
+0	21:46:06.725	MayTest US_OIL,H1: 
+0	21:46:06.753	MayTest US_OIL,H1: 
+0	21:46:06.784	MayTest US_OIL,H1: 
+0	21:46:06.815	MayTest US_OIL,H1: 
+0	21:46:06.846	MayTest US_OIL,H1: 
+0	21:46:06.874	MayTest US_OIL,H1: 
+0	21:46:06.904	MayTest US_OIL,H1: 
+0	21:46:06.935	MayTest US_OIL,H1: 
+0	21:46:06.966	MayTest US_OIL,H1: 
+0	21:46:06.995	MayTest US_OIL,H1: 
+0	21:46:07.026	MayTest US_OIL,H1: 
+0	21:46:07.056	MayTest US_OIL,H1: 
+0	21:46:07.087	MayTest US_OIL,H1: 
+0	21:46:07.119	MayTest US_OIL,H1: 
+0	21:46:07.149	MayTest US_OIL,H1: 
+0	21:46:07.178	MayTest US_OIL,H1: 
+0	21:46:07.208	MayTest US_OIL,H1: 
+0	21:46:07.241	MayTest US_OIL,H1: 
+0	21:46:07.268	MayTest US_OIL,H1: 
+0	21:46:07.297	MayTest US_OIL,H1: 
+0	21:46:07.327	MayTest US_OIL,H1: 
+0	21:46:07.355	MayTest US_OIL,H1: 
+0	21:46:07.385	MayTest US_OIL,H1: 
+0	21:46:07.417	MayTest US_OIL,H1: 
+0	21:46:07.449	MayTest US_OIL,H1: 
+0	21:46:07.480	MayTest US_OIL,H1: 
+0	21:46:07.509	MayTest US_OIL,H1: 
+0	21:46:07.542	MayTest US_OIL,H1: 
+0	21:46:07.574	MayTest US_OIL,H1: 
+0	21:46:07.604	MayTest US_OIL,H1: 
+0	21:46:07.635	MayTest US_OIL,H1: 
+0	21:46:07.666	MayTest US_OIL,H1: 
+0	21:46:07.696	MayTest US_OIL,H1: 
+0	21:46:07.728	MayTest US_OIL,H1: 
+0	21:46:07.762	MayTest US_OIL,H1: 
+0	21:46:07.795	MayTest US_OIL,H1: 
+0	21:46:07.825	MayTest US_OIL,H1: 
+0	21:46:07.857	MayTest US_OIL,H1: 
+0	21:46:07.890	MayTest US_OIL,H1: 
+0	21:46:07.920	MayTest US_OIL,H1: File 'my_template.tpl' not found in D:\software\MetaTrader 4\MQL4\Files
+0	21:46:07.920	MayTest US_OIL,H1: initialized
+0	21:46:07.920	MayTest US_OIL,H1: uninit reason 0
+0	21:46:07.929	Script MayTest US_OIL,H1: removed
+0	21:46:48.056	Script MayTest US_OIL,H1: loaded successfully
+0	21:46:48.062	MayTest US_OIL,H1: The Expert Advisor with name MayTest is running
+1	21:48:15.900	MayTest US_OIL,H1: debugging terminated
+3	21:48:15.934	MayTest US_OIL,H1: not initialized
+0	21:48:15.934	MayTest US_OIL,H1: uninit reason 8
+0	21:48:15.950	Script MayTest US_OIL,H1: removed
+0	21:49:43.952	Script MayTest US_OIL,H1: loaded successfully
+0	21:49:43.958	MayTest US_OIL,H1: The Expert Advisor with name MayTest is running
+1	21:49:44.087	MayTest US_OIL,H1: Abnormal termination
+3	21:49:44.087	MayTest US_OIL,H1: not initialized
+0	21:49:44.087	MayTest US_OIL,H1: uninit reason 8
+0	21:49:44.097	Script MayTest US_OIL,H1: removed
+0	21:50:14.688	Script MayTest US_OIL,H1: loaded successfully
+0	21:50:14.694	MayTest US_OIL,H1: The Expert Advisor with name MayTest is running
+0	21:50:14.695	MayTest US_OIL,H1: AUDCHFpro
+0	21:50:14.742	MayTest US_OIL,H1: AUDJPYpro
+0	21:50:14.772	MayTest US_OIL,H1: AUDNZDpro
+0	21:50:14.802	MayTest US_OIL,H1: AUDUSD
+0	21:50:14.829	MayTest US_OIL,H1: AUDUSDpro
+0	21:50:14.857	MayTest US_OIL,H1: AUS200
+0	21:50:14.885	MayTest US_OIL,H1: CADCHFpro
+0	21:50:14.912	MayTest US_OIL,H1: CADJPYpro
+0	21:50:14.939	MayTest US_OIL,H1: CHFJPYpro
+0	21:50:14.973	MayTest US_OIL,H1: COPPER
+0	21:50:15.002	MayTest US_OIL,H1: CORN
+0	21:50:15.041	MayTest US_OIL,H1: COTTON
+0	21:50:15.070	MayTest US_OIL,H1: ESTX50
+0	21:50:15.100	MayTest US_OIL,H1: EURAUDpro
+0	21:50:15.132	MayTest US_OIL,H1: EURCADpro
+0	21:50:15.161	MayTest US_OIL,H1: EURCHFpro
+0	21:50:15.228	MayTest US_OIL,H1: EURCZKpro
+0	21:50:15.260	MayTest US_OIL,H1: EURDKKpro
+0	21:50:15.289	MayTest US_OIL,H1: EURGBPpro
+0	21:50:15.319	MayTest US_OIL,H1: EURHUFpro
+0	21:50:15.349	MayTest US_OIL,H1: EURJPYpro
+0	21:50:15.380	MayTest US_OIL,H1: EURNOKpro
+0	21:50:15.433	MayTest US_OIL,H1: EURNZDpro
+0	21:50:15.481	MayTest US_OIL,H1: EURPLNpro
+0	21:50:15.510	MayTest US_OIL,H1: EURSEKpro
+0	21:50:15.540	MayTest US_OIL,H1: EURTRYpro
+0	21:50:15.568	MayTest US_OIL,H1: EURUSD
+0	21:50:15.598	MayTest US_OIL,H1: EURUSDpro
+0	21:50:15.628	MayTest US_OIL,H1: FRA40
+0	21:50:15.658	MayTest US_OIL,H1: GBPAUDpro
+0	21:50:15.715	MayTest US_OIL,H1: GBPCADpro
+0	21:50:15.746	MayTest US_OIL,H1: GBPCHFpro
+0	21:50:15.776	MayTest US_OIL,H1: GBPJPYpro
+0	21:50:15.807	MayTest US_OIL,H1: GBPNZDpro
+0	21:50:15.837	MayTest US_OIL,H1: GBPUSD
+0	21:50:15.868	MayTest US_OIL,H1: GBPUSDpro
+0	21:50:15.899	MayTest US_OIL,H1: GER30
+0	21:50:15.956	MayTest US_OIL,H1: HK50
+0	21:50:15.986	MayTest US_OIL,H1: HTG_OIL
+0	21:50:16.017	MayTest US_OIL,H1: JPN225
+0	21:50:16.049	MayTest US_OIL,H1: NAS100
+0	21:50:16.081	MayTest US_OIL,H1: NZDCADpro
+0	21:50:16.113	MayTest US_OIL,H1: NZDCHFpro
+0	21:50:16.143	MayTest US_OIL,H1: NZDJPYpro
+0	21:50:16.200	MayTest US_OIL,H1: NZDUSD
+0	21:50:16.231	MayTest US_OIL,H1: NZDUSDpro
+0	21:50:16.261	MayTest US_OIL,H1: PALLAD
+0	21:50:16.292	MayTest US_OIL,H1: PLAT
+0	21:50:16.321	MayTest US_OIL,H1: SGDJPYpro
+0	21:50:16.351	MayTest US_OIL,H1: SOYBEAN
+0	21:50:16.383	MayTest US_OIL,H1: SPX500
+0	21:50:16.446	MayTest US_OIL,H1: SUGAR
+0	21:50:16.478	MayTest US_OIL,H1: UK100
+0	21:50:16.511	MayTest US_OIL,H1: UK_OIL
+0	21:50:16.543	MayTest US_OIL,H1: US30
+0	21:50:16.575	MayTest US_OIL,H1: USDCAD
+0	21:50:16.607	MayTest US_OIL,H1: USDCADpro
+0	21:50:16.639	MayTest US_OIL,H1: USDCHF
+0	21:50:16.705	MayTest US_OIL,H1: USDCHFpro
+0	21:50:16.738	MayTest US_OIL,H1: USDCNHpro
+0	21:50:16.770	MayTest US_OIL,H1: USDCZKpro
+0	21:50:16.803	MayTest US_OIL,H1: USDDKKpro
+0	21:50:16.836	MayTest US_OIL,H1: USDHKD
+0	21:50:16.868	MayTest US_OIL,H1: USDHUFpro
+0	21:50:16.899	MayTest US_OIL,H1: USDJPY
+0	21:50:16.964	MayTest US_OIL,H1: USDJPYpro
+0	21:50:16.997	MayTest US_OIL,H1: USDMXNpro
+0	21:50:17.029	MayTest US_OIL,H1: USDNOKpro
+0	21:50:17.062	MayTest US_OIL,H1: USDPLNpro
+0	21:50:17.097	MayTest US_OIL,H1: USDRUBpro
+0	21:50:17.132	MayTest US_OIL,H1: USDSEKpro
+0	21:50:17.165	MayTest US_OIL,H1: USDSGDpro
+0	21:50:17.235	MayTest US_OIL,H1: USDTRYpro
+0	21:50:17.270	MayTest US_OIL,H1: USDZARpro
+0	21:50:17.305	MayTest US_OIL,H1: US_NATG
+0	21:50:17.337	MayTest US_OIL,H1: US_OIL
+0	21:50:17.367	MayTest US_OIL,H1: WHEAT
+0	21:50:17.400	MayTest US_OIL,H1: XAGUSDpro
+0	21:50:17.520	MayTest US_OIL,H1: XAUAUDpro
+0	21:50:17.838	MayTest US_OIL,H1: XAUCHFpro
+0	21:50:17.908	MayTest US_OIL,H1: XAUEURpro
+0	21:50:17.942	MayTest US_OIL,H1: XAUGBPpro
+0	21:50:17.976	MayTest US_OIL,H1: XAUJPYpro
+0	21:50:18.010	MayTest US_OIL,H1: XAUUSDpro
+0	21:50:18.056	MayTest US_OIL,H1: ZARJPYpro
+0	21:50:18.089	MayTest US_OIL,H1: 
+0	21:50:18.123	MayTest US_OIL,H1: File 'my_template.tpl' not found in D:\software\MetaTrader 4\MQL4\Files
+0	21:50:18.123	MayTest US_OIL,H1: initialized
+0	21:50:18.123	MayTest US_OIL,H1: uninit reason 0
+0	21:50:18.128	Script MayTest US_OIL,H1: removed
+0	21:59:59.109	Script MayTest US_OIL,H1: loaded successfully
+0	21:59:59.115	MayTest US_OIL,H1: The Expert Advisor with name MayTest is running
+0	21:59:59.115	MayTest US_OIL,H1: AUDCHFpro
+0	21:59:59.180	MayTest US_OIL,H1: AUDCHFpro
+0	21:59:59.208	MayTest US_OIL,H1: AUDCHFpro
+0	21:59:59.237	MayTest US_OIL,H1: AUDCHFpro
+0	21:59:59.264	MayTest US_OIL,H1: AUDCHFpro
+0	21:59:59.320	MayTest US_OIL,H1: AUDCHFpro
+0	21:59:59.348	MayTest US_OIL,H1: AUDCHFpro
+0	21:59:59.376	MayTest US_OIL,H1: AUDCHFpro
+0	21:59:59.439	MayTest US_OIL,H1: AUDCHFpro
+0	21:59:59.466	MayTest US_OIL,H1: AUDCHFpro
+0	21:59:59.498	MayTest US_OIL,H1: AUDCHFpro
+0	21:59:59.527	MayTest US_OIL,H1: AUDCHFpro
+0	21:59:59.555	MayTest US_OIL,H1: AUDCHFpro
+0	21:59:59.605	MayTest US_OIL,H1: AUDCHFpro
+0	21:59:59.632	MayTest US_OIL,H1: AUDCHFpro
+0	21:59:59.691	MayTest US_OIL,H1: AUDCHFpro
+0	21:59:59.718	MayTest US_OIL,H1: AUDCHFpro
+0	21:59:59.747	MayTest US_OIL,H1: AUDCHFpro
+0	21:59:59.777	MayTest US_OIL,H1: AUDCHFpro
+0	21:59:59.806	MayTest US_OIL,H1: AUDCHFpro
+0	21:59:59.835	MayTest US_OIL,H1: AUDCHFpro
+0	21:59:59.865	MayTest US_OIL,H1: AUDCHFpro
+0	21:59:59.929	MayTest US_OIL,H1: AUDCHFpro
+0	21:59:59.958	MayTest US_OIL,H1: AUDCHFpro
+0	21:59:59.988	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:00.018	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:00.047	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:00.077	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:00.107	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:00.175	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:00.206	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:00.235	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:00.265	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:00.295	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:00.325	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:00.354	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:00.417	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:00.447	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:00.478	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:00.509	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:00.539	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:00.569	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:00.600	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:00.667	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:00.700	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:00.733	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:00.764	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:00.795	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:00.827	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:00.860	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:00.923	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:00.955	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:00.987	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:01.020	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:01.051	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:01.081	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:01.112	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:01.179	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:01.211	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:01.245	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:01.279	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:01.313	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:01.348	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:01.381	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:01.453	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:01.486	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:01.522	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:01.555	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:01.589	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:01.621	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:01.654	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:01.722	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:01.756	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:01.790	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:01.824	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:01.860	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:01.895	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:01.929	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:02.002	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:02.036	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:02.070	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:02.105	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:02.140	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:02.177	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:02.211	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:02.279	MayTest US_OIL,H1: AUDCHFpro
+0	22:00:02.314	MayTest US_OIL,H1: File 'my_template.tpl' not found in D:\software\MetaTrader 4\MQL4\Files
+0	22:00:02.314	MayTest US_OIL,H1: initialized
+0	22:00:02.314	MayTest US_OIL,H1: uninit reason 0
+0	22:00:02.323	Script MayTest US_OIL,H1: removed
+0	22:04:11.376	Script MayTest US_OIL,H1: loaded successfully
+0	22:04:11.383	MayTest US_OIL,H1: The Expert Advisor with name MayTest is running
+0	22:04:11.383	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:11.452	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:11.480	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:11.507	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:11.532	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:11.560	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:11.589	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:11.615	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:11.640	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:11.665	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:11.694	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:11.721	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:11.748	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:11.775	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:11.805	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:11.866	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:11.895	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:11.921	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:11.951	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:11.980	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:12.007	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:12.036	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:12.062	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:12.091	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:12.124	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:12.186	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:12.214	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:12.240	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:12.270	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:12.299	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:12.325	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:12.355	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:12.382	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:12.411	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:12.441	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:12.508	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:12.538	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:12.567	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:12.598	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:12.629	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:12.658	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:12.686	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:12.719	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:12.747	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:12.778	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:12.810	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:12.875	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:12.905	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:12.934	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:12.964	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:12.994	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:13.025	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:13.054	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:13.085	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:13.115	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:13.182	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:13.214	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:13.243	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:13.275	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:13.307	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:13.336	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:13.368	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:13.398	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:13.429	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:13.461	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:13.529	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:13.560	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:13.590	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:13.621	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:13.651	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:13.680	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:13.713	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:13.743	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:13.777	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:13.809	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:13.879	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:13.912	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:13.942	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:13.974	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:14.007	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:14.038	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:14.068	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:14.101	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:14.135	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:14.169	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:14.202	MayTest US_OIL,H1: AUDCHFpro
+0	22:04:14.271	MayTest US_OIL,H1: initialized
+0	22:04:14.271	MayTest US_OIL,H1: uninit reason 0
+0	22:04:14.276	Script MayTest US_OIL,H1: removed
+0	22:06:15.720	Script MayTest US_OIL,H1: loaded successfully
+0	22:06:15.726	MayTest US_OIL,H1: The Expert Advisor with name MayTest is running
+0	22:06:15.726	MayTest US_OIL,H1: File 'my_template.tpl' not found in D:\software\MetaTrader 4\MQL4\Files
+0	22:06:15.726	MayTest US_OIL,H1: initialized
+0	22:06:15.726	MayTest US_OIL,H1: uninit reason 0
+0	22:06:15.733	Script MayTest US_OIL,H1: removed
+0	22:06:53.739	Script MayTest US_OIL,H1: loaded successfully
+0	22:06:53.745	MayTest US_OIL,H1: The Expert Advisor with name MayTest is running
+0	22:06:53.745	MayTest US_OIL,H1: File 'may.tpl' not found in D:\software\MetaTrader 4\MQL4\Files
+0	22:06:53.745	MayTest US_OIL,H1: initialized
+0	22:06:53.745	MayTest US_OIL,H1: uninit reason 0
+0	22:06:53.755	Script MayTest US_OIL,H1: removed
+0	22:07:03.741	Script MayTest US_OIL,H1: loaded successfully
+0	22:07:03.747	MayTest US_OIL,H1: The Expert Advisor with name MayTest is running
+0	22:07:03.748	MayTest US_OIL,H1: File 'may.tpl' not found in D:\software\MetaTrader 4\MQL4\Files
+0	22:07:03.748	MayTest US_OIL,H1: initialized
+0	22:07:03.748	MayTest US_OIL,H1: uninit reason 0
+0	22:07:03.759	Script MayTest US_OIL,H1: removed
+0	22:08:43.087	Script MayTest US_OIL,H1: loaded successfully
+0	22:08:43.092	MayTest US_OIL,H1: The Expert Advisor with name MayTest is running
+0	22:08:43.093	MayTest US_OIL,H1: File 'may.tpl' not found in D:\software\MetaTrader 4\MQL4\Files
+0	22:08:43.093	MayTest US_OIL,H1: initialized
+0	22:08:43.093	MayTest US_OIL,H1: uninit reason 0
+0	22:08:43.104	Script MayTest US_OIL,H1: removed
+0	22:10:45.626	Script MayTest US_OIL,H1: loaded successfully
+0	22:10:45.631	MayTest US_OIL,H1: Terminal directory:D:\software\MetaTrader 4
+0	22:10:45.631	MayTest US_OIL,H1: Terminal data directory:C:\Users\Administrator\AppData\Roaming\MetaQuotes\Terminal\E87C1DD8E868208C65D1F9992B1D94AA
+0	22:10:45.631	MayTest US_OIL,H1: The Expert Advisor with name MayTest is running
+0	22:10:45.632	MayTest US_OIL,H1: File 'may.tpl' not found in D:\software\MetaTrader 4\MQL4\Files
+0	22:10:45.632	MayTest US_OIL,H1: initialized
+0	22:10:45.632	MayTest US_OIL,H1: uninit reason 0
+0	22:10:45.640	Script MayTest US_OIL,H1: removed
+0	22:12:01.950	Script MayTest US_OIL,H1: loaded successfully
+0	22:12:01.956	MayTest US_OIL,H1: Terminal directory:D:\software\MetaTrader 4
+0	22:12:01.956	MayTest US_OIL,H1: Terminal data directory:C:\Users\Administrator\AppData\Roaming\MetaQuotes\Terminal\E87C1DD8E868208C65D1F9992B1D94AA
+0	22:12:01.956	MayTest US_OIL,H1: The Expert Advisor with name MayTest is running
+0	22:12:01.956	MayTest US_OIL,H1: File 'may.tpl' not found in D:\software\MetaTrader 4\templates
+0	22:12:01.956	MayTest US_OIL,H1: initialized
+0	22:12:01.956	MayTest US_OIL,H1: uninit reason 0
+0	22:12:01.964	Script MayTest US_OIL,H1: removed
+0	22:14:33.743	Script MayTest US_OIL,H1: loaded successfully
+0	22:14:33.749	MayTest US_OIL,H1: Terminal directory:D:\software\MetaTrader 4
+0	22:14:33.749	MayTest US_OIL,H1: Terminal data directory:C:\Users\Administrator\AppData\Roaming\MetaQuotes\Terminal\E87C1DD8E868208C65D1F9992B1D94AA
+0	22:14:33.749	MayTest US_OIL,H1: The Expert Advisor with name MayTest is running
+0	22:14:33.749	MayTest US_OIL,H1: The file may.tpl found in Files'
+0	22:14:33.750	MayTest US_OIL,H1: The template 'may.tpl' applied successfully
+0	22:14:33.750	MayTest US_OIL,H1: initialized
+0	22:14:33.750	MayTest US_OIL,H1: uninit reason 0
+0	22:14:33.759	Script MayTest US_OIL,H1: removed
+0	22:15:12.672	Script MayTest US_OIL,H1: loaded successfully
+0	22:15:12.678	MayTest US_OIL,H1: Terminal directory:D:\software\MetaTrader 4
+0	22:15:12.678	MayTest US_OIL,H1: Terminal data directory:C:\Users\Administrator\AppData\Roaming\MetaQuotes\Terminal\E87C1DD8E868208C65D1F9992B1D94AA
+0	22:15:12.678	MayTest US_OIL,H1: The Expert Advisor with name MayTest is running
+0	22:15:12.678	MayTest US_OIL,H1: The file may.tpl found in Files'
+0	22:15:12.679	MayTest US_OIL,H1: The template 'may.tpl' applied successfully
+0	22:15:12.679	MayTest US_OIL,H1: initialized
+0	22:15:12.679	MayTest US_OIL,H1: uninit reason 0
+0	22:15:12.687	Script MayTest US_OIL,H1: removed
