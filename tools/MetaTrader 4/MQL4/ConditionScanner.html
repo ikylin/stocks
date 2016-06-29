@@ -1,0 +1,327 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=us-ascii">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 9">
+<meta name=Originator content="Microsoft Word 9">
+<link rel=File-List href="./ConditionScanner_files/filelist.xml">
+<link rel=Edit-Time-Data href="./ConditionScanner_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>cs</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Michael</o:Author>
+  <o:LastAuthor>Michael</o:LastAuthor>
+  <o:Revision>10</o:Revision>
+  <o:TotalTime>343</o:TotalTime>
+  <o:Created>2014-02-11T04:31:00Z</o:Created>
+  <o:LastSaved>2014-02-25T04:42:00Z</o:LastSaved>
+  <o:Pages>3</o:Pages>
+  <o:Words>1154</o:Words>
+  <o:Characters>6580</o:Characters>
+  <o:Lines>54</o:Lines>
+  <o:Paragraphs>13</o:Paragraphs>
+  <o:CharactersWithSpaces>8080</o:CharactersWithSpaces>
+  <o:Version>9.2720</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<style>
+<!--
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h2
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:14.0pt;
+	font-family:Arial;
+	font-style:italic;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{margin-top:0cm;
+	margin-right:381.75pt;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 297.75pt 72.0pt 90.0pt;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+</head>
+
+<body lang=EN-AU style='tab-interval:36.0pt'>
+
+<div class=Section1>
+
+<h1>Condition Scanner (cs)</h1>
+
+<p class=MsoNormal>The idea behind the attached chunks of code is this: </p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>You dream up a (set of) condition(s). You write code to test
+for your conditions. You embed your code within these chunks of code. You make
+a couple of easy mods.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='margin-right:282.75pt'>You end up with a couple of
+indicators. One will point out historically on the current chart where your
+conditions arose. The other will show on a panel whether, for all of the
+instruments and timeframes in which you are interested, the conditions have currently
+arisen. This saves you from having to manually scan pairs and timeframes
+looking for your conditions.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h2>To install:</h2>
+
+<p class=MsoNormal>Copy the contents of the four folders (Indicators, Include,
+Templates, Profiles) into the equivalent folders of your installation. There is
+nothing in there to hurt you &#8211; only indicators, etc.</p>
+
+<p class=MsoNormal>Exit and re-enter the MetaQuotes program.</p>
+
+<h3><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></h3>
+
+<h2>To demonstrate what the scanner can do:</h2>
+
+<p class=MsoNormal>This example is based on Power Pro (setup identifier =
+&quot;PP&quot;) which was being pushed around the traps by Russ Horn. It is a
+band break-out strategy where the upper band limit is an ema of highs and the
+lower limit is an ema of lows. There is absolutely no endorsement of these
+strategies by me &#8211; this is purely as example of what you can develop.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>On your system, change to profile cspp. This could take
+several seconds for the first display but doesn&#8217;t use much computer resource
+thereafter.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>You should see a screen similar to this:<br
+style='mso-special-character:line-break'>
+<![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+<![endif]></p>
+
+<p class=MsoNormal><img width=956 height=538 id="_x0000_i1025"
+src=ScreenShot.jpg alt="Screen Shot"></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>The example above consists of:<br>
+<span style="mso-spacerun: yes">&nbsp;</span>an on-chart indicator with 4
+plots,<br>
+<span style="mso-spacerun: yes">&nbsp;</span>a separate-window indicator
+showing EMA of RSI,<br>
+<span style="mso-spacerun: yes">&nbsp;</span>a separate-window indicator showing
+where conditions suggesting long or short trades have occurred historically,<br>
+<span style="mso-spacerun: yes">&nbsp;</span>and a panel indicator showing
+where the same conditions have just occurred or are currently occurring across
+a range of pairs and timeframes.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h2>The code common to all scans:</h2>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'>Utils.mqh contains some utility
+functions which can be used in any indicator, expert adviser, etc.</p>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'>cs_Chart.mqh contains almost
+all of the code which goes into the current-chart indicator.</p>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'>cs_Panel.mqh contains almost
+all of the code which goes into the panel display indicator.</p>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h2>The code specific to the PP (Power Pro) strategy:</h2>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'>csPP_0.mq4 displays the
+relevant &quot;chart-window&quot; indicators.</p>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'>csPP_1.mq4 displays the
+relevant &quot;separate-window&quot; indicators.</p>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'>csPP_Chart.mq4 is the indicator
+which shows what happened historically on the current chart.</p>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'>csPP_Panel.mq4 is the indicator
+which shows the current situation on all of the pairs and timeframes in which
+you are interested.</p>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'>csPP_GetBarFlag.mqh is the code
+&quot;included&quot; in both the Chart and Panel indicators. It is the bit that
+decides whether there is a condition of interest at a particular bar.</p>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'>I included another less complex
+example (identifier=MAX).<br style='mso-special-character:line-break'>
+<![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+<![endif]></p>
+
+<h2>The code specific to the MAX (moving average crossover) strategy:</h2>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'>csMAX_0.mq4 is a custom
+indicator which displays two moving averages. It is completely self-contained.</p>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'>There is no equivalent csMAX_1
+because, unlike PP above, there is no need for a separate_window display.</p>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'>csMAX_Chart.mq4,
+csMAX_Panel.mq4 and csMAX_GetBarFlag.mqh do the equivalent thing as for the PP
+strategy above.</p>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h2>The code whose ids begin with csXXXX:</h2>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'>These are templates which can
+be used when developing additional scans.</p>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h2>How I go about coding for a new condition:</h2>
+
+<p class=MsoBodyText>I decide on a strategy identifier (eg PB for pinbars).</p>
+
+<p class=MsoBodyText>I set my window up as above under &quot;To demonstrate
+what the scanner can do&quot;, removing any existing indicators.</p>
+
+<p class=MsoBodyText>If my new scan relies on on-chart indicators, I build them
+using csXXXX_0.mq4 as a pattern. I remember to 'save as...' csPB_0.mq4. I apply
+my custom indicator to the left hand chart.</p>
+
+<p class=MsoBodyText>If I need a separate window indicator, I build it too. I
+remember to 'save as...' csPB_1.mq4. I apply it to the left hand chart.</p>
+
+<p class=MsoBodyText>I build custom indicators rather than using standard
+indicators so that I can refer to them elsewhere using the iCustom function.
+This way, if I change my mind about the basic parameters of my strategy (eg
+moving average method) I only have to change my custom indicators. If I used
+standard indicators, I would have to change them and then go digging into the
+bowels of my code to accommodate my mind change.</p>
+
+<p class=MsoBodyText>I grab csXXXX_Chart.mq4, replace all instances of 'XXXX'
+by my strategy identifier 'PB', and save the code as csPB_Chart.mq4. It wont
+compile yet because there is some &quot;include&quot; code still to be written.</p>
+
+<p class=MsoBodyText>Now to provide the &quot;include&quot; code. If the
+conditions for which I want to test are dead easy, I just use the
+&quot;include&quot; file csXXXX_GetBarFlag.mqh, code up what I want, and 'save
+as...' csPB_GetBarFlag.mqh. But if the coding is tricky, I go back to the
+csPB_Chart.mq4 that I previously created, I comment out the line of code that
+now reads &quot;#include &lt;csPB_GetBarFlag.mqh&gt;, and I build the code I
+want directly within the csPB_Chart.mq4 file. When I've got it clean, I
+move/paste the condition-finding code to the &quot;include&quot; file
+'csPB_GetBarFlag.mqh' and un-comment the #include statement in the
+'csPB_Chart.mq4 file.</p>
+
+<p class=MsoBodyText>Now the 'csPB_Chart.mq4' file can be compiled and applied
+to the left hand chart.</p>
+
+<p class=MsoBodyText>At this point, I save the template for the left hand chart
+as csPB-CHART.tpl. It incorporates any on-chart custom indicators,
+separate-window custom indicators, and the plot of results as they apply to the
+current chart</p>
+
+<p class=MsoBodyText>I load the file 'csXXXX_Panel.mq4', replace all instances
+of &quot;XXXX&quot; by &quot;PB&quot;, then 'save as...' &quot;csPB_Panel.mq4&quot;.
+This last file is compiled and applied to the right hand chart. It can be a bit
+slow to run when first applied but doesn't use much resource when running. I
+store csPB_panel.tpl as a template for the right hand chart.</p>
+
+<p class=MsoBodyText>I will then usually store csPB as a profile.</p>
+
+<p class=MsoBodyText><b>NOTE:</b> When building custom indicators and then
+referring to them with the iCustom function, I take care that the names are
+exactly right. You get no warning if iCustom refers to an indicator that
+doesn't exist.</p>
+
+<p class=MsoBodyText><b>NOTE:</b> There may be a bug such that when the panel
+indicator is first loaded, it produces results which are not consistent with
+those on the specific chart on display. I find that if I change the timescale
+on the panel window (thus forcing a re-calc), everything comes out right. I
+would be grateful if anyone can steer me right with this problem.</p>
+
+<p class=MsoBodyText><b>NOTE:</b> In the ...GetBarFlag.mqh code which you
+develop yourself, you can return any integer to the calling program to be
+displayed. As the code stands, zero means 'no result' and causes display of a
+gray wingding indicating which bar was tested. Returning a negative integer
+will result in a red display while a positive integer will result in a green
+display.</p>
+
+<h2>Some aspects of the software:</h2>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'>The code was written as
+indicators so that, when a panel is on display and you want to look at a
+particular pair and timeframe, you just pick the pair from the Market Watch
+window, drag and drop it onto the current chart space and change the timeframe
+to suit. The template looks after the rest.</p>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'>In an effort to reduce computer
+overload, I did two things.</p>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'>Firstly, when dealing with
+time-series arrays, I mostly only go back 200 bars.</p>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'>Secondly, the panel display
+software doesn't test the user's conditions at every tick. It uses a timer
+mechanism such that testing is applied to bar[0] only if bar[0] is 90% formed,
+otherwise testing is applied to bar[1]. If bar[1] has the focus (i.e. bar[0] is
+less than 90% formed), it is tested once and a changeover to bar[0] time is
+calculated. For every subsequent tick that comes along until the changeover
+time is reached, nothing happens. I am not 100% sure that I have got this coded
+up right yet but it seems to work pretty good.</p>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'>Further to the timer mechanism
+mentioned above, the top line of the panel shows the date and time that the
+most recent condition-testing event occurred. Also, in the examples supplied
+here, the neutral wingdings will show a zero if bar[0] is in focus and a '1' if
+bar[1] is in focus.</p>
+
+<p class=MsoNormal style='margin-bottom:12.0pt'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+</div>
+
+</body>
+
+</html>
