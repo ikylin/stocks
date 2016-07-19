@@ -341,29 +341,36 @@ void get_history_data(string symbol, int period){
 }
 
 
-string get_manual_follow_list(){
-   string list = "";
-   for(int i = 0; i < ArraySize(mfl_l); i++){
-         if(symbolname == mfl_l[i]){
-            sign = 1;
-            break;
-         }
-      }
+string get_manual_follow_list(string direct){
+   string list = " MF: ";
+   int i = 0;
+   if(direct == "L"){
+      for(i = 0; i < ArraySize(mfl_l); i++){
+         list = list + mfl_l[i];
+      }  
+   }else{
+      for(i = 0; i < ArraySize(mfl_s); i++){
+         list = list + mfl_s[i];
+      } 
+   }
+   list = list + "\n";
+   return list;
 }
 
 
 int check_manual_follow(string symbolname, string direct){
    int sign = 0;
 
+   int i = 0;
    if(direct == "L"){
-      for(int i = 0; i < ArraySize(mfl_l); i++){
+      for(i = 0; i < ArraySize(mfl_l); i++){
          if(symbolname == mfl_l[i]){
             sign = 1;
             break;
          }
       }
    }else{
-      for(int i = 0; i < ArraySize(mfl_s); i++){
+      for(i = 0; i < ArraySize(mfl_s); i++){
          if(symbolname == mfl_s[i]){
             sign = 1;
             break;
@@ -386,7 +393,10 @@ int OnInit()
    */
    //get_current_times(PERIOD_M1);
    //get_last_bar_times(PERIOD_H4);
-   get_trend_counts("L");
+   //get_trend_counts("L");
+   string list = "";
+   get_trends_list(list, "L");
+   Print(list);
    
    //print_symbol_list();
    //string list = "";
@@ -590,9 +600,8 @@ void check_actions(int period, int leftseconds){
    
    if(isCheckTrend(period) && isDataReady(leftseconds)){
       symbolList = "Trend list:";
-      if(get_trends_list(symbolList, "L")){
-         SendMail("Trend" + symbolList, symbolList);
-      }
+      get_trends_list(symbolList, "L");
+      SendMail("Trend" + symbolList, symbolList);
       Print(symbolList);
    }
 }
@@ -607,24 +616,10 @@ void print_symbol_list(){
    }
 }
 
-bool get_trends_list(string& symbolList, string direct){
-   int num = SymbolsTotal( false );
-   //string symbolList = "Trend list:";
-   bool has = false;
-
-   for ( int i = 1; i <= num; i++ )
-   {
-      string name = SymbolName( i - 1, false );
-
-      int sign = check_trend(name, direct);
-      Print("Trend  " + name + ":" + IntegerToString(sign));
-      if(sign == 1){
-         symbolList = symbolList + name + "/";
-         has = true;
-      }
-   }
-   
-   return has;
+void get_trends_list(string& symbolList, string direct){
+   symbolList = symbolList + get_manual_follow_list(direct);
+   symbolList = symbolList + get_trend_aqq_list(direct);
+   symbolList = symbolList + get_trend_count_list(direct);
 }
 
 
@@ -694,12 +689,13 @@ int get_symbol_period_data(string symbol, int period, int atemptnum){
    
    //---- the Time[] array was sroted in the descending order
    int copied = ArrayCopySeries(daytimes,MODE_TIME,symbol,period);
+   /*
    copied = ArrayCopySeries(opens,MODE_OPEN,symbol,period);
    copied = ArrayCopySeries(lows,MODE_LOW,symbol,period);
    copied = ArrayCopySeries(highs,MODE_HIGH,symbol,period);
    copied = ArrayCopySeries(closes,MODE_CLOSE,symbol,period);
    copied = ArrayCopySeries(volumes,MODE_VOLUME,symbol,period);
-   
+   */
    error=GetLastError();
    if(error==ERR_HISTORY_WILL_UPDATED )
      {
@@ -708,11 +704,13 @@ int get_symbol_period_data(string symbol, int period, int atemptnum){
         {
          Sleep(5000);
          copied = ArrayCopySeries(daytimes,MODE_TIME,symbol,period);
+         /*
          copied = ArrayCopySeries(opens,MODE_OPEN,symbol,period);
          copied = ArrayCopySeries(lows,MODE_LOW,symbol,period);
          copied = ArrayCopySeries(highs,MODE_HIGH,symbol,period);
          copied = ArrayCopySeries(closes,MODE_CLOSE,symbol,period);
          copied = ArrayCopySeries(volumes,MODE_VOLUME,symbol,period);
+         */
          //---- check the current daily bar time
          last_day=daytimes[0];
          if(check_date(last_day)) break;
@@ -733,6 +731,44 @@ int check_trend(string symbolname, string direct){
       sign = 1;
    }
    return sign;
+}
+
+string get_trend_count_list(string direct){
+   string list = " XGD: ";
+
+   int num = SymbolsTotal( false );
+   //string symbolList = "Trend list:";
+
+   for ( int i = 1; i <= num; i++ )
+   {
+      string name = SymbolName( i - 1, false );
+
+      int tc = get_trend_count(name, PERIOD_W1, direct);
+      if(tc > 20){
+         list = list + name;
+      }
+   }
+   list = list + "\n";
+   return list;
+}
+
+string get_trend_aqq_list(string direct){
+   string list = " AQQ: ";
+
+   int num = SymbolsTotal( false );
+   //string symbolList = "Trend list:";
+
+   for ( int i = 1; i <= num; i++ )
+   {
+      string name = SymbolName( i - 1, false );
+
+      int aqq = check_trend_aqq(name, direct);
+      if(aqq > 0){
+         list = list + name;
+      }
+   }
+   list = list + "\n";
+   return list;
 }
 
 int check_trend_aqq(string symbolname, string direct){
