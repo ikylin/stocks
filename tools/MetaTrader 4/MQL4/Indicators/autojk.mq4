@@ -346,11 +346,11 @@ string get_manual_follow_list(string direct){
    int i = 0;
    if(direct == "L"){
       for(i = 0; i < ArraySize(mfl_l); i++){
-         list = list + mfl_l[i];
+         list = list + mfl_l[i]  + " / ";;
       }  
    }else{
       for(i = 0; i < ArraySize(mfl_s); i++){
-         list = list + mfl_s[i];
+         list = list + mfl_s[i]  + " / ";;
       } 
    }
    list = list + "\n";
@@ -394,9 +394,9 @@ int OnInit()
    //get_current_times(PERIOD_M1);
    //get_last_bar_times(PERIOD_H4);
    //get_trend_counts("L");
-   string list = "";
-   get_trends_list(list, "L");
-   Print(list);
+   //string list = "";
+   //get_trends_list(list, "L");
+   //Print(list);
    
    //print_symbol_list();
    //string list = "";
@@ -599,7 +599,7 @@ void check_actions(int period, int leftseconds){
    }
    
    if(isCheckTrend(period) && isDataReady(leftseconds)){
-      symbolList = "Trend list:";
+      symbolList = "Trend list:" + "\n";
       get_trends_list(symbolList, "L");
       SendMail("Trend" + symbolList, symbolList);
       Print(symbolList);
@@ -745,7 +745,7 @@ string get_trend_count_list(string direct){
 
       int tc = get_trend_count(name, PERIOD_W1, direct);
       if(tc > 20){
-         list = list + name;
+         list = list + name + " / ";;
       }
    }
    list = list + "\n";
@@ -764,7 +764,7 @@ string get_trend_aqq_list(string direct){
 
       int aqq = check_trend_aqq(name, direct);
       if(aqq > 0){
-         list = list + name;
+         list = list + name + " / ";;
       }
    }
    list = list + "\n";
@@ -894,7 +894,7 @@ bool get_signs(string& symbolList)
       int sign = get_sign(name, PERIOD_H4);
       //Print("Signal  " + name + ":" + IntegerToString(sign));
       if(sign == 1){
-         symbolList = symbolList + name + "/";
+         symbolList = symbolList + name + " / ";
          has = true;
       }
       
