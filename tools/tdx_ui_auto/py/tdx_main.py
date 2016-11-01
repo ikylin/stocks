@@ -15,20 +15,22 @@ import tdx_dl
 #                     format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',  
 #                     datefmt='%a, %d %b %Y %H:%M:%S') 
 
+rootdir = r"c:/py"
 logger = logging.getLogger()
-fh = logging.FileHandler(r'c:\robot.log')
+fh = logging.FileHandler(r"%s/log/robot.log" % rootdir)
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')  
 fh.setFormatter(formatter)
 logger.addHandler(fh)
 
 def calc_signals():
+    
     # print('Tick! The time is: %s' % datetime.now())
     tousers = ['12442835@qq.com']
     #tousers = ['610379749@qq.com','12442835@qq.com']
     files = []
     #timestr = '2016-09-15_19-01-08'
     timestr = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
-    file = r"c:/calc_%s.xls" % timestr
+    file = r"%s/data/calc_%s.xls" % (rootdir, timestr)
     files.append(file)
     jsonfile = r'%s.json' % file
     files.append(jsonfile)

@@ -19,6 +19,15 @@ def check_for_uniq(name):
 		# 	qconfirm.退出.Click()
 		# 	time.sleep(5)
 
+		app = pywinauto.application.Application().connect(path = r"C:\Windows\System32\taskmgr.exe")
+		main = app.window_(title_re = ".*任务管理器")
+		if main.Exists():
+			main.CloseAltF4()
+		time.sleep(3)
+	except Exception:
+		pass
+
+	try:
 		app = pywinauto.application.Application().start(r"C:\Windows\System32\taskmgr.exe")
 		main = app.window_(title_re = ".*任务管理器")
 		main.Tab1.Select(1)

@@ -20,13 +20,15 @@ def gen_signal_file(file):
 	main = app.window_(title_re = "通达信金融终端V7.*")
 	main.Wait("visible", timeout = 6000 * 3)
 
-	time.sleep(3)
+	time.sleep(2)
 	tdxinfo = app.window_(title_re = "通达信信息")
 	tdxinfo.Wait("visible", timeout = 6000 * 1)
-	tdxinfo.Close()
+	if tdxinfo.Exists():
+		tdxinfo.Close()
 
 	# main.DrawOutline()
 	time.sleep(3)
+	main = app.window_(title_re = "通达信金融终端V7.*")
 	main.TypeKeys("{.}{4}{0}{1}{ENTER}")
 
 	time.sleep(1)
@@ -41,7 +43,8 @@ def gen_signal_file(file):
 	#calc.WaitNot("visible")
 	app.WaitCPUUsageLower(15, timeout = 6000 * 60)
 
-	time.sleep(3)
+	time.sleep(1)
+	main = app.window_(title_re = "通达信金融终端V7.*")
 	main.TypeKeys("{3}{4}{ENTER}")
 
 	time.sleep(1)
@@ -60,7 +63,8 @@ def gen_signal_file(file):
 
 	time.sleep(1)
 	confirm = app.window_(title_re = "TdxW")
-	confirm.Wait("visible", timeout = 6000 * 3)
+	if not confirm.Exists():
+		confirm.Wait("visible", timeout = 6000 * 3)
 	confirm.取消.Click()
 
 
@@ -69,7 +73,8 @@ def gen_signal_file(file):
 	main.CloseAltF4()
 
 	qconfirm = app.window_(title_re = "退出确认")
-	qconfirm.Wait("visible", timeout = 6000 * 1)
+	if qconfirm.Exists():
+		qconfirm.Wait("visible", timeout = 6000 * 1)
 	# qconfirm.DrawOutline()
 	qconfirm.退出.Click()
 
